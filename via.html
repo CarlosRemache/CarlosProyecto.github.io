@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
@@ -38,62 +39,77 @@
 
     </header>
 
+        <title>Mi Presentación</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                padding: 20px;
+            }
     
-
-  
-   
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-  <style>
-    body {
-      padding: 20px;
-    }
-    #cuadroTexto {
-      padding: 20px;
-      background-color:rgb(255, 0, 255); 
-      color: #333;
-    }
-  </style>
-</head>
-<body>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-50" src="IMAGENESMIAS/Primera2.jpg">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-50" src="IMAGENESMIAS/Segunda1.jpg">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-50" src="IMAGENESMIAS/Tercera3.jpg">
-    </div>
-  </div>
-
-</div>
-
-<div id="Informacion">
-  <h2>Bienvenido a un ricón digital donde conoceras mas de mí. mmmm</h2>
-  <textarea rows="4" cols="50"></textarea>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            #titulo {
+                text-align: center;
+                font-size: 36px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+    
+            #bibliografia {
+                margin-top: 20px;
+            }
+    
+            #fotos {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                overflow: hidden;
+            }
+    
+            .foto {
+                width: 200px;
+                height: 200px;
+                animation: mover 2s infinite alternate;
+            }
+    
+            @keyframes mover {
+                from {
+                    transform: translateX(0);
+                }
+                to {
+                    transform: translateX(50px); 
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+    
+            <h1>Mi Presentación</h1>
+        </div>
+    
+        <div id="bibliografia">
+            <h2>Lo que soy</h2>
+            
+            <p> Es un honor para mí estar aquí hoy y compartir un poco sobre quién soy y lo que me impulsa en la vida. </p>
+            <p>Mi nombre es Domenica Toaquiza, soy originaria de la hermosa ciudad de Latacunga y tengo la dicha de contar con 20 años de experiencias y aprendizajes en este viaje llamado vida.</p>
+            <p>En estos momentos, estoy dedicando parte de mi tiempo a mis estudios en la Universidad Tecnológica de Cotopaxi, donde me sumerjo en el fascinante mundo del conocimiento y la formación académica.</p>
+            <p>Además de mi compromiso académico, tengo una pasión que late fuertemente en mi corazón: los animales. Me encanta la conexión que podemos tener con estas criaturas.</p>
+            <p>Hablando de inspiración, no puedo dejar de mencionar a mi familia.</p>
+            <p> Soy afortunada de tener una familia grande que siempre me apoya, me alienta y me impulsa a alcanzar mis sueños. </p>
+            <p>Son mi roca, mi red de seguridad y mi mayor motivación.  </p>
         
+        </div>
+    
+        <div id="fotos">
+            <img class="foto" src="IMAGENESMIAS/Primera1.jpg" alt="Mi Foto 1">
+            <img class="foto" src="IMAGENESMIAS/Segunda2.jpg" alt="Mi Foto 2">
+            <img class="foto" src="IMAGENESMIAS/Tercera3.jpg" alt="Mi Foto 3">
+        </div>
+    
+    </body>
+    </html>
+    
     
 
 
-
-
-
-
-
-
-</body>
-</html>
+    
