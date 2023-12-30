@@ -4,13 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="estil.css">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightsteelblue; 
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #dddddd;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .texto {
+            text-align: justify;
+        }
+
+        .tabla-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .tabla-container h2 {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="content">
             <div class="menu container">
-                <a  class="logo">Relatos</a>
+                <a class="logo">Relatos</a>
                 <input type="checkbox" id="menu"/>
                 <label for="menu">
                     <img src="imagenes/fa99695d46c1e28ef267519904f8dcb5.png" class="menu-icono" alt="">
@@ -24,26 +62,63 @@
                         <li><a href="hobby.html">Hobby</a></li>
                         <li><a href="via.html">Bibliografía</a></li>
                         <li><a href="megusta.html">Blog</a></li>
-
                     </ul>
-
-
                 </nav>
-
             </div> 
-
-
-
         </div>
-
     </header>
 
+    <div class="tabla-container">
+        <h2>Mi blog </h2>
+        <p>¡Bienvenida a mi rincón digital, donde comparto las alegrías, desafíos y momentos inolvidables de mi viaje como madre! </p>
+        <p>Soy Dome la mente y el corazón detrás de este espacio dedicado a explorar las experiencias únicas que la maternidad nos regala.</p>
+        <table>
+            <tr>
+                <td>
+                    <img src="IMAGENESMIAS/foto1.jpg" alt="Foto 1">
+                </td>
+                <td>
+                    Texto relacionado con la Foto 1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="IMAGENESMIAS/foto2.jpg" alt="Foto 2">
+                </td>
+                <td>
+                    Texto relacionado con la Foto 2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="IMAGENESMIAS/foto3.jpg" alt="Foto 3">
+                </td>
+                <td>
+                    Texto relacionado con la Foto 3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="IMAGENESMIAS/foto4.jpg" alt="Foto 4">
+                </td>
+                <td>
+                    Texto relacionado con la Foto 4
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="IMAGENESMIAS/foto5.jpg" alt="Foto 5">
+                </td>
+                <td>
+                    Texto relacionado con la Foto 5
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
 
 
-
-  
-    <h1>hola mundo</h1>
-        
 
 
 
@@ -65,5 +140,5 @@
 
 
     
-</body>
-</html>
+
+
