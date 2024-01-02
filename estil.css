@@ -92,7 +92,74 @@ h1{
 
 
 
+/*------------------------------------------------------------------------------------------------*/
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
 
 
 
 
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#titulo {
+text-align: center;
+font-size: 36px;
+color: #333;
+margin: 100px 0 20px;
+}
+
+#bibliografia {
+background-color: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 800px;
+margin: 0 auto;
+}
+
+
+
+#fotos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    animation: mover 2s infinite alternate;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(20px);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu.container {
+        flex-direction: column;
+    }
+
+
+
+   
+}
