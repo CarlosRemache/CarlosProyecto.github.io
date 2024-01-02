@@ -17,7 +17,7 @@ body{
 }
 
 .content {
-    min-height: 150px;
+    min-height: 140px;
     background: linear-gradient(
         90deg,
         rgb(235, 190, 84,1)0%,
