@@ -11,12 +11,12 @@ body{
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
 .content {
-    min-height: 80px;
+    min-height: 100px;
     background: linear-gradient(
         90deg,
         rgb(235, 190, 84,1)0%,
